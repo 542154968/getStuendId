@@ -1,4 +1,5 @@
-# getStuendId
+# getStudentId
+> 才发现项目名拼写错了哈哈哈
 
 ## 抽取学号的系统
 
