@@ -139,7 +139,7 @@ body{
 @media screen and ( min-width: 1200px ){
     .contain{
         position: static;
-        margin-top: 100px;
+        margin-top: 10%;
     }  
     .contain label{
         width: 180px
