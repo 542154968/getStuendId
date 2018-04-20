@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好好学习，天天向上！</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="sun">
+        <img src="images/sun.png" alt="">
+    </div>
+    <div class="contain">
+        <div class="num" id="numId">0</div>
+        <div class="control">
+            <label for="">
+                <span>最大学号：</span>
+                <input type="text" name="num" value="0">
+            </label>
+            <a href="" class="get-num"></a>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="data:image/png;base64,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" class="clould" alt="">
+        <img src="data:image/png;base64,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" class="clould friend" alt="">
+        <img src="images/footer.png" alt="">
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/coutUp.min.js"></script>
+    <script>
+        // 避免:active动画不生效
+        $('body').on('touchstart', function () {});
+        // countConfig
+        var options = {  
+            useEasing: true,
+            useGrouping: true,
+            separator: ',',
+            decimal: '.',
+        };
+
+        function Random() {
+            if (!(this instanceof Random)) {
+                return new Random();
+            }
+            this.numReg = /[^\d]/g;
+            this._init();
+        }
+        Random.prototype = {
+            constructor: Random,
+            _init: function () {
+                this._getOldNum();
+                this._isNum();
+                this._getNum();
+            },
+            _getOldNum: function () {
+                var num = window.localStorage.getItem('randomNum');
+                num == null ? $('input[name="num"]').val(60) : $('input[name="num"]').val(num);
+            },
+            _isNum: function () {
+                var self = this;
+                $('body').on('input prototyChange', 'input[name="num"]', function (e) {
+                    var $this = $(this),
+                        $val = $this.val().replace(self.numReg, '');
+                    window.localStorage.setItem('randomNum', $val);
+                    $this.val($val)
+                })
+            },
+            _getNum: function () {
+                var self = this;
+                $('body').on('click', 'a.get-num', function (event) {
+                    event.preventDefault();
+                    var maxNum = $('input[name="num"]').val();
+                    if (maxNum === '') {
+                        alert('请输入最大数值！')
+                        return false
+                    } else {
+                        var count = new CountUp('numId', 0, Math.ceil(Math.random() * maxNum), 0, 1,
+                            options);
+                        if (!count.error) {
+                            count.start();
+                        } else {  
+                            console.error(demo.error);
+                        }
+                    }
+                })
+            }
+        }
+        new Random();
+    </script>
+</body>
+
+</html>
